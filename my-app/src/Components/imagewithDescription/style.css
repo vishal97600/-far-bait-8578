@@ -1,0 +1,22 @@
+.image-with-description-section{
+    display: flex;
+    flex-direction: column;
+    font-family: 'PT Sans', sans-serif;
+}
+.image-with-description-section img{
+   margin-bottom: 30px;
+   width: 100%;
+}
+
+.image-with-description-section h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
+.image-with-description-section p{
+    font-size: 20px;
+    line-height: 1.2;
+    margin: 0;
+}

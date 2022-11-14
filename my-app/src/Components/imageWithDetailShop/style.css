@@ -1,0 +1,69 @@
+.image-with-detail-shop-section{
+    display: flex;
+    align-items: center;
+    gap: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.image-with-detail-shop-section > div{
+   width:50%;
+}
+
+.image-with-detail-shop-section.image-right .image-with-detail-shop-section-content{
+    order:1;
+}
+
+.image-with-detail-shop-section.image-right .image-with-detail-shop-section-image{
+    order:2;
+}
+.image-with-detail-shop-section h3{
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 48px;
+}
+
+.image-with-detail-shop-section p{
+    font-size: 24px;
+    line-height: 1.2;
+    margin: 0 0 48px;
+}
+
+.image-with-detail-shop-section img{
+    width: 100%;
+}
+
+.image-with-detail-shop-section .btn{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    padding: 8px 20px;
+    border: 1px solid #222;
+    color: #222;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+.image-with-detail-shop-section.btn-text .btn{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    padding: 8px 20px;
+    border: none; 
+    text-decoration: underline;  
+    color: #222;
+    background: none;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    width: auto;
+}
+.image-with-detail-shop-section .btn:hover{
+    border: 1px solid #222;
+    color: #fff;
+    background: #222;
+    text-decoration: none;
+}
+
+.image-with-detail-shop-section  .image-with-detail-shop-section-content{
+    text-align: center;
+    padding: 40px;
+}

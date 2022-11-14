@@ -1,0 +1,15 @@
+.product-page{
+    padding: 30px;
+}
+
+.product-list-section{
+    display: flex;
+    gap: 20px;
+    flex-wrap:wrap;
+}
+
+.product-list-section .product-card-section {
+    width: calc(33.3% - 13px);
+}
+
+

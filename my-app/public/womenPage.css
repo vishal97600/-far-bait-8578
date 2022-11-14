@@ -1,0 +1,194 @@
+/* 
+div{
+    
+    margin-top: 20px;
+} */
+
+.w1,.w2,.w3{
+    height: auto;
+    margin:3%;
+    width: 94%;
+    border: 1px solid red;
+    display: flex;
+}
+.w1>div,.w2>div,.w3>div{
+    width: 50%;
+    height: auto;
+}
+.w12{
+    /* display: grid;
+    grid-template-rows: repeat(3,1fr); */
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.w2>div div,.w3>div div{
+    /* display: grid;
+    grid-template-rows: repeat(3,1fr); */
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.w121{
+   margin-top: 100px;
+   height: 140px;
+   font-size: 48px;
+   text-align: center;
+   font-weight: 700
+
+}
+.w122{
+    padding: 10px;
+    margin-top: 20px;
+    height: 90px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 23px;
+
+
+ }
+ .w123{
+    margin-top: 30px;
+    padding-top: 15px;
+    height: 60px;
+align-items: center; 
+justify-content: center; 
+  font-weight: 400;
+    font-size: 23px;
+
+
+ }
+ button{
+    padding-bottom: 18px;
+  height: 40px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 8px ;
+ }
+
+
+ /* ................................................... */
+
+.w211{
+   margin-top: 100px;
+   height: 140px;
+   font-size: 30px;
+   text-align: center;
+   font-weight: 400;
+   padding: 40px 60px;
+
+}
+.w212{
+    padding: 10px;
+    margin-top: 0px;
+    height: 90px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 19px;
+
+
+ }
+
+ .w213{
+    margin-top: 0px;
+    padding-top: 15px;
+    height: 60px;
+align-items: center; 
+justify-content: center;   font-weight: 400;
+    font-size: 23px;
+ }
+ 
+
+ /* ................................................... */
+
+ 
+.w311{
+    margin-top: 0px;
+    height: auto;
+   
+ 
+ }
+ .w312{
+     padding: 10px;
+     margin-top: 0px;
+     height: auto;
+     font-weight: 400;
+     font-size: 17px;
+ 
+ 
+  }
+ 
+  .w313{
+     margin-top: 0px;
+     padding-top: 15px;
+     height: auto;
+ align-items: center; 
+ justify-content: center;   font-weight: 400;
+     font-size: 14px;
+  }
+
+ /* ....................................................... */
+.w4,.w9{
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    padding: 0px 30px;
+    justify-content: space-between;
+    font-weight: 400;
+    
+}
+/* .......................................... */
+
+.w5,.w8,.w10{
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    padding: 30px 20px;
+    justify-content: space-between;
+    
+}
+.w5>div, .w10>div{
+    margin: 10px;
+    box-shadow:    (17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.w5>div h2,.w10>div h2{
+font-weight:600;
+}
+
+/* ............................................................... */
+.w6{
+    height: 600px;
+}
+.w7,.w11{
+    justify-content: center;
+    text-align: center;
+}
+.w8{
+    width: 94%;
+    margin: auto;
+    height: auto;
+}
+.w8>div{
+    margin: 10px;
+}
+
+
+/* .................................................... */
+.wa12>div{
+    margin: 10px;
+    width: 31%;
+    height: 600px;
+}
+
+
+.wa12{
+    height: 600px;
+    width: 93%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.wa12 img{
+    height: 550px;
+}

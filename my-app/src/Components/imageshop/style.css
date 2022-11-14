@@ -1,0 +1,52 @@
+.image-shop-section{
+    display: flex;
+    align-items: center;
+    gap: 0;
+    font-family: 'PT Sans', sans-serif;
+    position: relative;
+}
+
+.image-shop-section h3{
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 48px;
+    color: #fff;
+
+}
+.image-shop-section img{
+    width: 100%;
+ }
+.image-shop-section p{
+    font-size: 24px;
+    line-height: 1.2;
+    margin: 0 0 48px;
+    color: #fff;
+}
+
+.image-shop-section .btn{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    padding: 8px 20px;
+    border: none;
+    color: #fff;
+    text-decoration: underline;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+.image-shop-section .btn:hover{
+    border: none;
+    color: #fff;
+}
+
+.image-shop-section  .image-shop-section-content{
+    text-align: center;
+    padding: 40px;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

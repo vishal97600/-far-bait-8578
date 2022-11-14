@@ -1,0 +1,84 @@
+.product-detail-section {
+    display: flex;
+    align-items: center;
+    padding: 50px 30px;
+}
+
+.product-detail-section .product-detail-section-image{
+    width: 50%;
+    border: 5px solid #f5f5f5;
+    border-radius: 10px;
+    background: #fff;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.product-detail-section .product-detail-section-content{
+    width: 50%;
+    padding: 50px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.product-detail-section img{
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+    display: block;
+}
+
+.product-detail-section h3{
+    font-size: 24px;
+    line-height: 1.2;
+    margin: 0;
+    color:#000;
+    font-weight: 700;
+}
+
+.product-detail-section .season{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 0;
+    color:#ccc;
+    font-weight: 400;
+    height: 30px;
+}
+
+.product-detail-section p{
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 0;
+    color:#000;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.product-detail-section .price{
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 0;
+    color:#000; 
+    font-weight: 400;
+}
+
+.product-detail-section .btn{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    padding: 15px 50px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    background: #000;
+    transition: all 0.3s ease;
+}
+
+.product-detail-section .btn:disabled{
+    background: #ccc;
+    cursor: not-allowed;
+}
+.product-detail-section .btn:hover{
+    border: none;
+    color: #fff;
+}
